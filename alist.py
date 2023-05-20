@@ -53,7 +53,7 @@ if __name__ == '__main__':
         print("挂载成功")
 #        quit()
         time.sleep(2)
-        upload_result=Upload(auth_token,args.path,"encrypt_folder",args.fileName)
+        upload_result=Upload(auth_token,args.path,"movie",args.fileName)
         print(upload_result)
     else:
         print("出错了，可能是存储字符串错误")
